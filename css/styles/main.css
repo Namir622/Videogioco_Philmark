@@ -1,0 +1,208 @@
+body {
+    min-height: 100vh;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'BakerStreet';
+    src: url('../assets/fonts/BakerStreet-Inline.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#characterName{
+    font-family: 'BakerStreet';
+}
+
+#rooms-container{
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.room{
+    width: 100vw;
+    height: auto;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    text-align: center;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#room-0{
+    background-image: url("../assets/images/rooms/room01.png");
+}
+
+#room-1{
+    background-image: url("../assets/images/rooms/1_Ponte_Comando.png");
+}
+#room-2{
+    background-image: url("../assets/images/rooms/2_Ascensore.png");
+}
+#room-3{
+    background-image: url("../assets/images/rooms/3_Quartiere_Residenziale.png");
+}
+.room-switch-button{
+    top: 50%;
+    position: absolute;
+    z-index: 5;
+}
+
+.right{
+    right: 0%;
+}
+
+
+#dialog-container{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 65vw;
+    height: 70vh;
+    z-index: 1;
+    background-image: url(../assets/UI/Dialogues/Base_Dialogues.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#dialog-box{
+    margin-top: 10%;
+    height: 12vw;
+    /* min-height: 210px; */
+}
+@media (max-width: 1600px){
+    p{
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+}
+@media (max-width: 1440px){
+    p{
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+}
+
+#answers-container{
+    position: relative;
+}
+
+.answer-button{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.selection-indicator{
+    height: 30%;
+    /* max-width: 50px; */
+    width: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 0.5em;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+.stilized-button{
+    height: 8vh;
+    width: 15em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-annulla{
+    background-image: url(../assets/UI/Dialogues/Annulla_Button.png);
+}
+
+.btn-avanti{
+    background-image: url(../assets/UI/Dialogues/Avanti_Button.png);
+}
+
+#avanti-row{
+    margin-top: 10%;
+}
+
+#button_conferma{
+    background-image: url(../assets/UI/Dialogues/Conferma_Button.png);
+}
+
+#button_conferma:disabled,
+#button_conferma[disabled]{
+    background-image: url(../assets/UI/Dialogues/Conferma_Disabled_Button.png);
+}
+#button_annulla:disabled,
+#button_annulla[disabled]{
+    background-image: url(../assets/UI/Dialogues/Annulla_Disabled_Button.png);
+}
+
+p{
+    margin: 0;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 25px;
+}
+#question-text{
+    font-weight: 600;
+}
+
+.answer-text{
+    width: fit-content;
+}
+
+#dark-overlay{
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+}
+
+#answer-table{
+    width: 100%;
+    height: 24vh;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    table-layout: fixed;
+}
+tr{
+    height: 49%;
+}
+
+#end-game-screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+

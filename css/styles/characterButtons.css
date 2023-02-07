@@ -1,0 +1,30 @@
+.character-button{
+    top: 40%;
+    position: relative;
+    height: 45%;
+    width: 15%;
+
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 0px;
+    z-index: 1;
+}
+
+.button-right{
+    margin-left: 5%;
+    transform: scale(-1, 1);
+}
+
+.button-left{
+    margin-right: 5%;
+}
+
+#char0{
+    background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
+}
+
+#char1{
+    background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
+}

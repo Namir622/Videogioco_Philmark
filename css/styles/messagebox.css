@@ -1,0 +1,12 @@
+#message-box{
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+    top: 35%;
+    left: 35%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+}
