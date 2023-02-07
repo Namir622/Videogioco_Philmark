@@ -27,8 +27,8 @@ function beginInteraction(buttonRef){
     currentCharacterButton = buttonRef
     currentCharId = currentCharacterButton.id.substring(4)
     currentInteractionID = answersObject[currentCharId].length
+    currentCharName = ragazzo01FULLNAMEGenerator();
     $.getJSON('../data/questions.json', function(data){
-        currentCharName = data[currentCharId]["characterName"];
         currentInteraction = data[currentCharId]["interactions"][currentInteractionID]
         if (currentInteraction["requires"] != "" && !unlockedInteractions.includes(currentInteraction["requires"])){
             // alert(currentInteraction["requires_message"])
@@ -42,6 +42,7 @@ function beginInteraction(buttonRef){
 
         console.log(currentCharName)
     })
+
 
 }
 
