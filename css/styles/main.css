@@ -206,3 +206,8 @@ tr{
     justify-content: center;
 }
 
+.cambia_scenario {
+    display: flex;
+    justify-content: center;
+    border: 7px 7px solid;
+}

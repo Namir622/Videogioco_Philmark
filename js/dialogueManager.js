@@ -53,7 +53,7 @@ var dialogueIndex = 0
 function startDialogue(){
     console.log('startDialogue');
     document.getElementById("dark-overlay").style.opacity=0.7
-    document.getElementById("characterName").innerHTML = "Clayton:"
+    document.getElementById("characterName").innerHTML = "Mr. Pando:"
     currentUnlocks = currentInteraction["unlocks"]
     currentQuestion = currentInteraction["question"]
     displayAvantiButtonForDialogue();
@@ -185,10 +185,17 @@ function checkCharacterCompleted(){
     console.log(completedCharacters)
 }
 
+//modifica applicata
+let btn_prosegui = document.querySelector('#button_avanti');
+
 function areAllCharactersCompleted(){
     if  (completedCharacters.every (value => value === true)){
         console.log(answersObject);
+        //modifica applicata
         console.log("ciao")
+        console.log(btn_prosegui);
+        btn_prosegui.setAttribute("class", "cambia_scenario");
+
         endGame(answersObject[1]) //TODO ALEX
     }
 }
