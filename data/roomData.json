@@ -1,8 +1,14 @@
 [
     {
     "id": 1,
-    "roomName": "Salotto",
+    "roomName": "Stazione",
     "background": "../resources/css/assets/images/rooms/07_Ponte_Comando.png"
-    }
+    },
+
+    {
+        "id": 2,
+        "roomName": "Treno",
+        "background": "../resources/css/assets/images/rooms/07_Ponte_Comando.png"
+        }
 
 ]
