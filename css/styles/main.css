@@ -37,25 +37,29 @@ body {
     background-size: cover;
 }
 
+/*alla stazione*/
 #room-0{
-    background-image: url("../assets/images/rooms/room01.png");
+    background-image: url("../assets/images/rooms/room1.png");
 }
-
+/*dentro treno*/
 #room-1{
     background-image: url("../assets/images/rooms/1_Ponte_Comando.png");
 
 }
+/*nn si sa ancora*/
 #room-2{
     background-image: url("../assets/images/rooms/2_Ascensore.png");
 }
+/*nn si sa ancora*/
 #room-3{
     background-image: url("../assets/images/rooms/3_Quartiere_Residenziale.png");
 }
+/*parte che ignoriamo pk?? pk mi sta sul cazzo
 .room-switch-button{
     top: 50%;
     position: absolute;
     z-index: 5;
-}
+}*/
 
 .right{
     right: 0%;
