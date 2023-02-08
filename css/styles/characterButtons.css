@@ -35,3 +35,23 @@
     height: 40%;
     width: 30%;
 }
+#char0-1{
+    background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
+    height: 25%;
+    width: 20%;
+    margin-left: 30%;
+    padding: 0;
+}
+#char1-1{
+    background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
+    height: 50%;
+    width: 50%;
+    transform: translateY(-65%);
+}
+#char2-1{
+    background-image: url(../assets/images/characters/ClaireFinnegan_FullSize_Base.png);
+    height: 60%;
+    width: 60%;
+    transform: translateY(-150%);
+    margin-left: 30%;
+}

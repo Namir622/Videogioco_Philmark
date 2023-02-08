@@ -186,14 +186,11 @@ function checkCharacterCompleted(){
 }
 
 //modifica applicata
-let btn_prosegui = document.querySelector('#arrow');
 
 function areAllCharactersCompleted(){
     if  (completedCharacters.every (value => value === true)){
         console.log(answersObject);
         //modifica applicata
-        console.log("ciao")
-        btn_prosegui.setAttribute('disabled','');
         endGame(answersObject[1]) //TODO ALEX
     }
 }

@@ -1,7 +1,6 @@
 body {
     min-height: 100vh;
     margin: 0%;
-    overflow: hidden;
 }
 
 @font-face {
@@ -43,6 +42,7 @@ body {
 
 #room-1{
     background-image: url("../assets/images/rooms/1_Ponte_Comando.png");
+
 }
 #room-2{
     background-image: url("../assets/images/rooms/2_Ascensore.png");
@@ -207,9 +207,9 @@ tr{
     justify-content: center;
 }
 
-.arrow-containter{
+.arrow2-containter{
     transform: translate(95%, -120%);
 }
-.arrow1-container{
+.freccia-container{
     transform: translate(0%, -220%);
 }
