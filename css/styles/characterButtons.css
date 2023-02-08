@@ -24,13 +24,14 @@
 
 #char0{
     background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
-    height: 400px;
-    width: 400px;
-    margin-left: 280px;
+    height:50%;
+    width: 30%;
+    margin-left: 10%;
+    padding: 0;
 }
 
 #char1{
     background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
-    height: 300px;
-    width: 300px;
+    height: 40%;
+    width: 30%;
 }

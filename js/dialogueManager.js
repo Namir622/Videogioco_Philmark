@@ -188,6 +188,7 @@ function checkCharacterCompleted(){
 function areAllCharactersCompleted(){
     if  (completedCharacters.every (value => value === true)){
         console.log(answersObject);
+        console.log("ciao")
         endGame(answersObject[1]) //TODO ALEX
     }
 }
