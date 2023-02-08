@@ -1,6 +1,7 @@
 body {
     min-height: 100vh;
     margin: 0%;
+    overflow: hidden;
 }
 
 @font-face {
@@ -206,8 +207,9 @@ tr{
     justify-content: center;
 }
 
-.cambia_scenario {
-    display: flex;
-    justify-content: center;
-    border: 7px 7px solid;
+.arrow-containter{
+    transform: translate(95%, -120%);
+}
+.arrow1-container{
+    transform: translate(0%, -220%);
 }

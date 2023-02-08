@@ -68,7 +68,7 @@ function incrementDialogueIndex(){
     if(dialogueIndex <= currentInteraction["dialogue"].length-1){
         document.getElementById("question-text").innerHTML = currentInteraction["dialogue"][dialogueIndex]
         if((dialogueIndex % 2) == 0){
-            document.getElementById("characterName").innerHTML = "Clayton:"
+            document.getElementById("characterName").innerHTML = "Mr. Pando:"
         } else {
             document.getElementById("characterName").innerHTML = currentCharName + ":"
         }
@@ -186,16 +186,14 @@ function checkCharacterCompleted(){
 }
 
 //modifica applicata
-let btn_prosegui = document.querySelector('#button_avanti');
+let btn_prosegui = document.querySelector('#arrow');
 
 function areAllCharactersCompleted(){
     if  (completedCharacters.every (value => value === true)){
         console.log(answersObject);
         //modifica applicata
         console.log("ciao")
-        console.log(btn_prosegui);
-        btn_prosegui.setAttribute("class", "cambia_scenario");
-
+        btn_prosegui.setAttribute('disabled','');
         endGame(answersObject[1]) //TODO ALEX
     }
 }
