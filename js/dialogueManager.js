@@ -7,6 +7,7 @@ var currentCharacterButton = null;
 var currentCharExitAnimation = "";
 var currentCharReturnAnimation = "";
 var diarioDiClaytonEntry = "";
+var chNumber = 0; //character number, si occupa di dare i nomi ai tizi
 
 var answersObject = {
     "0":[],
@@ -27,7 +28,7 @@ function beginInteraction(buttonRef){
     currentCharacterButton = buttonRef
     currentCharId = currentCharacterButton.id.substring(4)
     currentInteractionID = answersObject[currentCharId].length
-    currentCharName = ragazzo01FULLNAMEGenerator();
+    currentCharName = nameGiver(chNumber);
     $.getJSON('../data/questions.json', function(data){
         currentInteraction = data[currentCharId]["interactions"][currentInteractionID]
         if (currentInteraction["requires"] != "" && !unlockedInteractions.includes(currentInteraction["requires"])){
@@ -131,6 +132,10 @@ function terminateInteraction(){
     currentCharacterButton.classList.add(currentCharReturnAnimation);
     currentCharacterButton.addEventListener('animationend', endDialogue)
 
+    chNumber++;
+    nameGiver(chNumber);
+    
+    
     //TODO ALEX
     if(currentCharId == 0){
         nextGame(answersObject[currentCharId]);
@@ -183,6 +188,7 @@ function checkCharacterCompleted(){
 function areAllCharactersCompleted(){
     if  (completedCharacters.every (value => value === true)){
         console.log(answersObject);
+        console.log("ciao")
         endGame(answersObject[1]) //TODO ALEX
     }
 }
