@@ -4,39 +4,39 @@
         "interactions": [
             {
                 "dialogue":[
-                    "Ciao ragazzo, posso farti qualche domanda?",
-                    "Oh! Il detective, vero? Mia nonna mi ha detto di te! Io sono William Braddock, ma tutti mi chiamano Billy. Devo dirtelo: non sembri affatto come gli investigatori dei romanzi.",
-                    "L'età ha il brutto vizio di cambiarti il look, Billy. Tua nonna è qui con te?",
-                    "Si, beh, per quanto la vedo. Rimanere in cabina ad aspettare non fa per me. Preferisco stare in mezzo alla gente.",
+                    "Ciao ragazzo, prima ti ho scopato la madre",
+                    "Oh! Il detective, vero? Mia nonna mi ha detto di te! Io sono William Braddock, ma tutti mi chiamano er mono palla. Devo dirtelo: non sembri affatto come gli handicappati .",
+                    "L'età ha il brutto vizio di cambiarti il look. Tua nonna è morta",
+                    "Si, beh, per quanto la vedo non me frega piu ncazzo. me la ero scopata prima de mori. Preferisco stare in mezzo alle zitelle.",
                     "Immagino che non sia l'ambiente più movimentato. Posso chiederti se conoscevate il defunto?",
-                    "Non personalmente. Era il socio di mio padre.",
+                    "Non personalmente. Era l amico frocio de quella zoccola de mi sorella.",
                     "Era?"
                 ],
                 "question":{
-                    "question-text": "Si, mio padre è venuto a mancare qualche anno fa, insieme a mia madre. ",
+                    "question-text": "sei ncojone . ",
                     "A":{
-                        "answer": "Condoglianze",
+                        "answer": "tu sorella me la so scopata ieri",
                         "score": -2,
                         "color": "Blue",
                         "quickReply": "Risparmiatele per Jebediah, è lui il morto di giornata…",
                         "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora Braddock potrà dirmi altro."
                     },
                     "B":{
-                        "answer": "Capisco. Non deve essere stato facile crescere da solo",
+                        "answer": "mori stronzo",
                         "score": 1,
                         "color": "Red",
                         "quickReply": "Non ero da solo: mia nonna ha fatto un ottimo lavoro.",
                         "claytonDiary" : "Tiene molto a sua nonna. A questo punto potrei chiedere a lei di approfondire la questione."
                     },
                     "C":{
-                        "answer": "Mi dispiace molto. Vuoi parlarne?",
+                        "answer": "cazzi tua",
                         "score": -1,
                         "color": "Green",
                         "quickReply": "Un po' presto per parlare a cuore aperto, non credi? Magari quando ti conoscerò meglio…",
                         "claytonDiary" : "Troppo presto per certe confidenze. Proverò a rivolgermi a sua nonna."
                     },
                     "D":{
-                        "answer": "E sei venuto su così bene? Tua nonna deve essere molto fiera.",
+                        "answer": "cojone",
                         "score": 2,
                         "color": "Yellow",
                         "quickReply": "Lo spero sinceramente, detective. A tal proposito, dovresti fare quattro chiacchiere anche con lei. Sono sicuro che le farebbe piacere.",
