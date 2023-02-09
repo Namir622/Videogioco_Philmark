@@ -4,15 +4,15 @@
         "interactions": [
             {
                 "dialogue":[
-                    "Ciao ragazzo, posso farti una domanda? Questo binario porta alla centrale di polizia",
-                    "Oh! Non ne sono sicuro, chiedi a mia nonna è quella signora la. Non ci voglio parlare.",
-                    "Se posso chiedere...Perchè avete litigato?",
-                    "Si, beh, oggi abbiamo fatto un giro in città ma lei continuava a dire di voler tornare a casa e adesso siamo arrivati qua.",
-                    "Immagino che non sia l'ambiente più movimentato. Posso chiederti dove?",
-                    "E che ti frega a te?",
-                    "Okok scusa per il disturbo. Posso farti un'ultima domanda?",
-                    "Si, ma fa in fretta...",
-                    "Sono un detective, voglio sapere se sai dei furti avvenuti in città?"
+                    "Questo è il binario 2?",
+                    "Non ne sono sicuro, dopo chiedi a mia nonna, Sono con lei",
+                    "Dove siete stati?",
+                    "Abbiamo fatto una gita in città",
+                    "Dove?",
+                    "Uhm non mi ricordo",
+                    "Mhh, non mi ispiri fiducia ragazzo",
+                    "Chi sei? Che cosa vuoi?",
+                    "Sono un detective, voglio sapere se sai dei furti avvenuti in città"
                     
 
 
@@ -20,32 +20,32 @@
                 "question":{
                     "question-text": "No, assolutamente no! Perchè mai dovrei saperlo? ",
                     "A":{
-                        "answer": "volevo solo avere delle informazioni",
+                        "answer": "Ora parlerò con tua nonna ",
                         "score": -2,
                         "color": "Blue",
-                        "quickReply": "sarà meglio per te",
-                        "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora Braddock potrà dirmi altro."
+                        "quickReply": "Vai! Vai!...",
+                        "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora potrà dirmi altro."
                     },
                     "B":{
-                        "answer": "agisci in modo piuttosto sospetto",
+                        "answer": "Ma agisci in modo strano",
                         "score": 1,
                         "color": "Red",
-                        "quickReply": "Non ero da solo: mia nonna ha fatto un ottimo lavoro no cap.",
-                        "claytonDiary" : "Tiene molto a sua nonna. A questo punto potrei chiedere a lei di approfondire la questione."
+                        "quickReply": "Non mi sembra",
+                        "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora potrà dirmi altro."
                     },
                     "C":{
-                        "answer": "confido nel fatto che tua sia un bravo ragazzo",
+                        "answer": "Spero che non sei nei guai",
                         "score": -1,
                         "color": "Green",
-                        "quickReply": "Un po' presto per parlare a cuore aperto, non credi? Magari quando ti conoscerò meglio…",
-                        "claytonDiary" : "Troppo presto per certe confidenze. Proverò a rivolgermi a sua nonna."
+                        "quickReply": "Fatti gli affari tuoi",
+                        "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora potrà dirmi altro."
                     },
                     "D":{
-                        "answer": "ora parlerò con tua nonna",
+                        "answer": "Volevo solo delle informazioni",
                         "score": 2,
                         "color": "Yellow",
-                        "quickReply": "Lo spero sinceramente, detective. A tal proposito, dovresti fare quattro chiacchiere anche con lei. Sono sicuro che le farebbe piacere owo.",
-                        "claytonDiary" : "In effetti la signora Braddock potrebbe raccontarmi molto del padre di Billy e del suo sodalizio con Jebediah. Meglio cogliere la palla al balzo."
+                        "quickReply": "Sarà meglio per te",
+                        "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora potrà dirmi altro."
                     }
                 },
                 "requires":"",
@@ -61,9 +61,9 @@
             {
                 "dialogue":[
                     "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
-                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
-                    "So che conosceva il nostro ospite.",
-                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, come posso aiutarla?",
+                    "Si, questo è il binario 2?",
+                    "Corretto, serve altro?", 
                     "Lei pensa che sia stata giusta con Jebediah Coulter?",  
                     "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
                     "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
