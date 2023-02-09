@@ -8,6 +8,7 @@ var currentCharExitAnimation = "";
 var currentCharReturnAnimation = "";
 var diarioDiClaytonEntry = "";
 var chNumber = 0; //character number, si occupa di dare i nomi ai tizi
+var finishedDialogues = 0;
 
 var answersObject = {
     "0":[],
@@ -134,6 +135,8 @@ function terminateInteraction(){
     currentCharacterButton.classList.add(currentCharReturnAnimation);
     currentCharacterButton.addEventListener('animationend', endDialogue)
 
+    finishedDialogues++;
+    dialogueNumber(finishedDialogues);
     chNumber++;
     nameGiver(chNumber);
     
