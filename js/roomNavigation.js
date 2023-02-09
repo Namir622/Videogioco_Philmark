@@ -12,7 +12,6 @@ function dialogueNumber(Anumber) {
 };
 
 function navigateNextRoom() {
-    debugger;
 
     if (roomNumber == 4) {
         return;
@@ -21,29 +20,20 @@ function navigateNextRoom() {
         roomNumber++;
         //number++
         console.log("2")
+        topBarUnlocker(roomNumber);
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
     } else if (number == 4) {
         console.log(number);
-        debugger;
         roomNumber++;
         number++
+        topBarUnlocker(roomNumber);
         console.log("4")
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
     } else if (number == 8) {
         roomNumber++;
         number++
+        topBarUnlocker(roomNumber);
         console.log("8")
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
     }
 }
-
-/*function navigatePreviousRoom(){
-    if(roomNumber == 0){
-        console.log("3")
-        document.querySelector("#rooms-container").scrollLeft = scrollSize*3;
-    } else{
-        console.log("4")
-        document.querySelector("#rooms-container").scrollLeft -= scrollSize;
-    }
-    
-}*/
