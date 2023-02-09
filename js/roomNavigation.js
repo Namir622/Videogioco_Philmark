@@ -17,7 +17,7 @@ function navigateNextRoom() {
     if (roomNumber == 4) {
         return;
     }
-    else if (number == 2) {
+    else if (number == 0) {
         roomNumber++;
         //number++
         console.log("2")
