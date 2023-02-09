@@ -25,8 +25,10 @@ var completedCharacters = [false, false]
 
 function beginInteraction(buttonRef){
     console.log('beginInteraction');
-    currentCharacterButton = buttonRef
+    currentCharacterButton = buttonRef;
     currentCharId = currentCharacterButton.id.substring(4)
+    console.log(buttonRef)
+    console.log(currentCharId)
     currentInteractionID = answersObject[currentCharId].length
     currentCharName = nameGiver(chNumber);
     $.getJSON('../data/questions.json', function(data){
@@ -38,7 +40,7 @@ function beginInteraction(buttonRef){
             showDialogueBackground(buttonRef)
             setupCharAnimations()
             buttonRef.classList.add(currentCharExitAnimation);
-            buttonRef.addEventListener('animationend', startDialogue);
+            buttonRef.addEventListener('animationend', startDialogue);//animazione zig-zag//
         }
 
         console.log(currentCharName)
