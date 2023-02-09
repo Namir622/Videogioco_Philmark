@@ -4,42 +4,47 @@
         "interactions": [
             {
                 "dialogue":[
-                    "Ciao ragazzo, prima ti ho scopato la madre",
-                    "Oh! Il detective, vero? Mia nonna mi ha detto di te! Io sono William Braddock, ma tutti mi chiamano er mono palla. Devo dirtelo: non sembri affatto come gli handicappati .",
-                    "L'età ha il brutto vizio di cambiarti il look. Tua nonna è morta",
-                    "Si, beh, per quanto la vedo non me frega piu ncazzo. me la ero scopata prima de mori. Preferisco stare in mezzo alle zitelle.",
-                    "Immagino che non sia l'ambiente più movimentato. Posso chiederti se conoscevate il defunto?",
-                    "Non personalmente. Era l amico frocio de quella zoccola de mi sorella.",
-                    "Era?"
-                ],
+                    "Ciao ragazzo, posso farti una domanda? Questo binario porta alla centrale di polizia",
+                    "Oh! Non ne sono sicuro, chiedi a mia nonna è quella signora la. Non ci voglio parlare.",
+                    "Se posso chiedere...Perchè avete litigato?",
+                    "Si, beh, oggi abbiamo fatto un giro in città ma lei continuava a dire di voler tornare a casa e adesso siamo arrivati qua.",
+                    "Immagino che non sia l'ambiente più movimentato. Posso chiederti dove?",
+                    "E che ti frega a te?",
+                    "Okok scusa per il disturbo. Posso farti un'ultima domanda?",
+                    "Si, ma fa in fretta...",
+                    "Sono un detective, voglio sapere se sai dei furti avvenuti in città?"
+                    
+
+
+                ],  
                 "question":{
-                    "question-text": "sei ncojone . ",
+                    "question-text": "No, assolutamente no! Perchè mai dovrei saperlo? ",
                     "A":{
-                        "answer": "tu sorella me la so scopata ieri",
+                        "answer": "volevo solo avere delle informazioni",
                         "score": -2,
                         "color": "Blue",
-                        "quickReply": "Risparmiatele per Jebediah, è lui il morto di giornata…",
+                        "quickReply": "sarà meglio per te",
                         "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora Braddock potrà dirmi altro."
                     },
                     "B":{
-                        "answer": "mori stronzo",
+                        "answer": "agisci in modo piuttosto sospetto",
                         "score": 1,
                         "color": "Red",
-                        "quickReply": "Non ero da solo: mia nonna ha fatto un ottimo lavoro.",
+                        "quickReply": "Non ero da solo: mia nonna ha fatto un ottimo lavoro no cap.",
                         "claytonDiary" : "Tiene molto a sua nonna. A questo punto potrei chiedere a lei di approfondire la questione."
                     },
                     "C":{
-                        "answer": "cazzi tua",
+                        "answer": "confido nel fatto che tua sia un bravo ragazzo",
                         "score": -1,
                         "color": "Green",
                         "quickReply": "Un po' presto per parlare a cuore aperto, non credi? Magari quando ti conoscerò meglio…",
                         "claytonDiary" : "Troppo presto per certe confidenze. Proverò a rivolgermi a sua nonna."
                     },
                     "D":{
-                        "answer": "cojone",
+                        "answer": "ora parlerò con tua nonna",
                         "score": 2,
                         "color": "Yellow",
-                        "quickReply": "Lo spero sinceramente, detective. A tal proposito, dovresti fare quattro chiacchiere anche con lei. Sono sicuro che le farebbe piacere.",
+                        "quickReply": "Lo spero sinceramente, detective. A tal proposito, dovresti fare quattro chiacchiere anche con lei. Sono sicuro che le farebbe piacere owo.",
                         "claytonDiary" : "In effetti la signora Braddock potrebbe raccontarmi molto del padre di Billy e del suo sodalizio con Jebediah. Meglio cogliere la palla al balzo."
                     }
                 },
@@ -96,102 +101,9 @@
                 },
                 "requires":"billy1",
                 "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-                "unlocks":"camille1",
-                "correctSequence": ["D", "B", "C", "A"]
-            }
-        ]
-    },
-    {
-        "characterName":"Camille Braddock",
-        "interactions":[
-            {
-                "dialogue":[
-                    "dialogo da sostituire"
-                ],
-                "question":{
-                    "question-text":"da sostituire",
-                    "A":{
-                        "answer": "Potrebbe essere più precisa?",
-                        "score": -1,
-                        "color": "Blue",
-                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
-                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
-                    },
-                    "B":{
-                        "answer": "Ha mai desiderato il male del signor Coulter?",
-                        "score": -2,
-                        "color": "Red",
-                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
-                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
-                    },
-                    "C":{
-                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
-                        "score": 2,
-                        "color": "Green",
-                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
-                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
-                    },
-                    "D":{
-                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
-                        "score": 1,
-                        "color": "Yellow",
-                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
-                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
-                    }
-                },
-                "requires":"camille1",
-                "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-                "unlocks":"ragazza1",
-                "correctSequence": ["D", "B", "C", "A"]
-            }
-        ]
-        
-    },
-    {
-        "characterName":"Camille Braddock",
-        "interactions":[
-            {
-                "dialogue":[
-                    "dialogo da sostituire"
-                ],
-                "question":{
-                    "question-text":"da sostituire",
-                    "A":{
-                        "answer": "Potrebbe essere più precisa?",
-                        "score": -1,
-                        "color": "Blue",
-                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
-                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
-                    },
-                    "B":{
-                        "answer": "Ha mai desiderato il male del signor Coulter?",
-                        "score": -2,
-                        "color": "Red",
-                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
-                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
-                    },
-                    "C":{
-                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
-                        "score": 2,
-                        "color": "Green",
-                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
-                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
-                    },
-                    "D":{
-                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
-                        "score": 1,
-                        "color": "Yellow",
-                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
-                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
-                    }
-                },
-                "requires":"ragazza1",
-                "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
                 "unlocks":"",
                 "correctSequence": ["D", "B", "C", "A"]
             }
         ]
-        
     }
-
 ]

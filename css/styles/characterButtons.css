@@ -60,3 +60,10 @@
     margin-left: 30%;
     padding: 0;
 }
+#char7{
+
+    background-image: url(../assets/images/characters/MarcusFinnegan_FullSize_Base.png);
+    height: 60%;
+    width: 20%;
+    
+}
