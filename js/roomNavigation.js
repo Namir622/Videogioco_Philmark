@@ -1,5 +1,5 @@
 let roomNumber = 1; //numero di stanze -1
-let number;
+let number = 0;
 let frt;
 
 
@@ -17,7 +17,7 @@ function navigateNextRoom() {
     if (roomNumber == 4) {
         return;
     }
-    else if (number == 2) {
+    else if (number == 0) {
         roomNumber++;
         //number++
         console.log("2")
