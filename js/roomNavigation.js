@@ -1,5 +1,5 @@
 let roomNumber = 1; //numero di stanze -1
-let number;
+let number = 0;
 let frt;
 
 
@@ -13,26 +13,28 @@ function dialogueNumber(Anumber) {
 
 function navigateNextRoom() {
     debugger;
-    
+
     if (roomNumber == 4) {
         return;
     }
-    else if (number == 2) {
+    else if (number == 0) {
         roomNumber++;
         //number++
         console.log("2")
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
     } else if (number == 4) {
+        console.log(number);
+        debugger;
         roomNumber++;
-       // number++
+        number++
         console.log("4")
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
-        } else if (number == 8) {
-            roomNumber++;
-            //number++
-            console.log("8")
-            document.querySelector("#rooms-container").scrollLeft += scrollSize;
-        }
+    } else if (number == 8) {
+        roomNumber++;
+        number++
+        console.log("8")
+        document.querySelector("#rooms-container").scrollLeft += scrollSize;
+    }
 }
 
 /*function navigatePreviousRoom(){
