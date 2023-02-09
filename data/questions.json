@@ -4,8 +4,8 @@
         "interactions": [
             {
                 "dialogue":[
-                    "Questo è il binario 2?",
-                    "Non ne sono sicuro, dopo chiedi a mia nonna, Sono con lei",
+                    "Ciao ragazzotto, questo è il binario 2?",
+                    "Non ne sono sicuro, dopo chiedi a mia nonna. Sono con lei",
                     "Dove siete stati?",
                     "Abbiamo fatto una gita in città",
                     "Dove?",
@@ -27,7 +27,7 @@
                         "claytonDiary" : "Forse avrei dovuto battere il ferro finché era caldo. Magari la signora potrà dirmi altro."
                     },
                     "B":{
-                        "answer": "Ma agisci in modo strano",
+                        "answer": "Non me la racconti giusta!",
                         "score": 1,
                         "color": "Red",
                         "quickReply": "Non mi sembra",
@@ -60,43 +60,42 @@
         "interactions": [
             {
                 "dialogue":[
-                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Buonasera, posso rubarle qualche minuto?",
                     "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, come posso aiutarla?",
                     "Si, questo è il binario 2?",
                     "Corretto, serve altro?", 
-                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
-                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
-                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                    "In realtà si"
+
                 ],
                 "question":{
-                    "question-text": "Chissà...",
+                    "question-text": "Ok, mi dica pure",
                     "A":{
-                        "answer": "Potrebbe essere più precisa?",
+                        "answer": "Suo nipote non mi sembre tipo tranquillo",
                         "score": -1,
                         "color": "Blue",
-                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
-                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni non si dovrebbero fare con le estranee. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Mi converrebbe salire sul treno"
                     },
                     "B":{
-                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "answer": "Sa dove posso stampare un biglietto?",
                         "score": -2,
                         "color": "Red",
-                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
-                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                        "quickReply": "No, mi dispiace",
+                        "claytonDiary" : "Mi conviene cercarlo e salire sul treno"
                     },
                     "C":{
-                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "answer": "Sai qualcosa sui furti avvenuti di recente?",
                         "score": 2,
                         "color": "Green",
-                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
-                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                        "quickReply": "Oh giovanotto, non so di cosa tu stia parlando! (risata nervosa)",
+                        "claytonDiary" : "Non mi sembra tanto convinta, mi conviene salire dove sale lei"
                     },
                     "D":{
-                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "answer": "Da dove sta arrivando?",
                         "score": 1,
                         "color": "Yellow",
-                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
-                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                        "quickReply": "Vengo da quì, da lì, mi piace girovagare",
+                        "claytonDiary" : "Non mi è molto chiaro, meglio seguirla sul treno"
                     }
                 },
                 "requires":"billy1",
