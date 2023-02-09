@@ -47,18 +47,20 @@
     background-image: url(../assets/images/characters/poliziotto.png);
     transform: translateY(-100%);
 }
-
+ /*SCENA 1*/
 /*Bambino con l'epatite*/
 #char0{
     height: 60%;
     width: 25%;
     margin-left: 10%;
     padding: 0;
+    transform: translate(0%,-10%);
 }
 /*la vecchia nonna ladra cleptomane*/
 #char1{
     height: 40%;
     width: 30%;
+    transform: translate(0%,-10%) scaleX(-1)
 }
 
 /*STANZA 2*/
