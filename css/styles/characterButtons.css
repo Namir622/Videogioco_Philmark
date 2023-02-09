@@ -37,6 +37,16 @@
 .vecchio-testimone {
     background-image: url(../assets/images/characters/MarcusFinnegan_FullSize_Base.png);
 }
+/*immagine prigioniero*/
+
+.prigioniero{
+    background-image: url(../assets/images/characters/prisoner.png);
+    transform: translate(100%, -100% );
+}
+.poliziotto{
+    background-image: url(../assets/images/characters/poliziotto.png);
+    transform: translateY(-100%);
+}
 
 /*Bambino con l'epatite*/
 #char0{
