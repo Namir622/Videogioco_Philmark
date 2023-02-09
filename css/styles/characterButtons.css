@@ -21,9 +21,25 @@
     margin-right: 5%;
 }
 
+/*immagine ragazzo epatite*/
+.ragazzo-epatite {
+    background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
+}
+/*immagine vecchia cleptomane*/
+.vecchia-cleptomane {
+    background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
+}
+/*imagine ragazza derubata*/
+.ragazza-derubata {
+    background-image: url(../assets/images/characters/ClaireFinnegan_FullSize_Base.png);
+}
+/*immagine vecchio testimone*/
+.vecchio-testimone {
+    background-image: url(../assets/images/characters/MarcusFinnegan_FullSize_Base.png);
+}
+
 /*Bambino con l'epatite*/
 #char0{
-    background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
     height: 60%;
     width: 25%;
     margin-left: 10%;
@@ -31,32 +47,34 @@
 }
 /*la vecchia nonna ladra cleptomane*/
 #char1{
-    background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
     height: 40%;
     width: 30%;
 }
 /*epatite che viaggia*/
 #charEpatite{
-    background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
-    height: 25%;
+    height: 55%;
     width: 20%;
-    margin-left: 35%;
+    margin-left: 12%;/*
     padding: 0;
-    transform: scaleX(-1);
+    transform: scaleX(-1);*/
 }
 /*vecchia che viagga*/
 #char2{
-    background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
-    height: 50%;
-    width: 40%;
-    transform: translate(40%, -62%);
+    height: 55%;
+    width: 20%;
+    margin: 0;
+    /*
+    transform: translate(40%, -62%);*/
 }
 /*minorenne derubata*/
 #char3{
-    background-image: url(../assets/images/characters/ClaireFinnegan_FullSize_Base.png);
-    height: 60%;
+    height: 55%;
     width: 20%;
+    margin-right: 22%;/*
     transform: translate(-115%,-56%);
-    margin-left: 30%;
-    padding: 0;
+    padding: 0;*/
+}
+#char7{
+    height:55%;
+    width: 20%;
 }
