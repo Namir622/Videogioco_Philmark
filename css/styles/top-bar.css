@@ -79,18 +79,16 @@
 }
 
 #char2pawn{
-    width: 80px;
-    margin-left: 30px;
     transform: scaleX(-1);
-    background-image: url(../assets/UI/top_bar/pawns/testamozzata.png) !important;
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataRagazza.png) !important;
 }
 
 #char3-pawn{
-    background-image: url(../assets/UI/top_bar/pawns/Billy\ Braddock_white.png) !important;
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataEpatite.png) !important;
 }
 
 #char4-pawn{
-    background-image: url(../assets/UI/top_bar/pawns/Camille\ Braddock_white.png) !important;
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataVecchia.png) !important;
 }
 #char5pawn{
     background-image: url(../assets/UI/top_bar/pawns/TestaMozzataTestimone.png) !important;
