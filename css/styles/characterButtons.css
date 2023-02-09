@@ -36,25 +36,27 @@
     width: 30%;
 }
 /*epatite che viaggia*/
-#char0-1{
+#charEpatite{
     background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
     height: 25%;
     width: 20%;
-    margin-left: 30%;
+    margin-left: 35%;
     padding: 0;
+    transform: scaleX(-1);
 }
 /*vecchia che viagga*/
-#char1-1{
+#char2{
     background-image: url(../assets/images/characters/CamilleBraddock_FullSize_Base.png);
     height: 50%;
-    width: 50%;
-    transform: translateY(-65%);
+    width: 40%;
+    transform: translate(40%, -62%);
 }
 /*minorenne derubata*/
-#char2-1{
+#char3{
     background-image: url(../assets/images/characters/ClaireFinnegan_FullSize_Base.png);
     height: 60%;
-    width: 60%;
-    transform: translateY(-150%);
+    width: 20%;
+    transform: translate(-115%,-56%);
     margin-left: 30%;
+    padding: 0;
 }
