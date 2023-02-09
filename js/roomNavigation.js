@@ -15,9 +15,6 @@ function navigateNextRoom() {
     
     if (roomNumber == 2) {
         return;
-        // roomNumber--;
-        // console.log("1")
-        // document.querySelector("#rooms-container").scrollLeft = 0;
     }
     else if (number == 2) {
         roomNumber++;
