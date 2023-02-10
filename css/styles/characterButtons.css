@@ -99,7 +99,7 @@
     transform: translate(85%, 0%);
 }
 /*vecchia*/
-#char5{
+#char6{
 
 height: 60%;
 width: 15%;
@@ -107,14 +107,14 @@ transform: translate(50%,-15%) scaleX(-1);
 
 }
 /*tipa derubata*/
-#char6{
+#char7{
 
     height: 60%;
     width: 11%;
     transform: translate(-60%, 0%) scaleX(-1);
 }
 /*vecchio testimone*/
-#char7{
+#char5{
     height:60%;
     width: 20%;
     transform: translate(-50%, 0%);
@@ -122,39 +122,39 @@ transform: translate(50%,-15%) scaleX(-1);
 
 /*  SCENA 4*/
 /* ePATITE*/
-#char8{
+#char10{
     height:50%;
     width: 20%;
 
 }
 /* vecchia*/
-#char9{
+#char11{
     height:50%;
     width: 20%;
     margin-left: -10%;
 }
 /*ragazza derubata*/
-#char10{
+#char12{
     height:50%;
     width: 20%;
     transform: translate(160%,2%);
 }
 /* vecchio testimone*/
-#char11{
+#char13{
     height:50%;
     width: 20%;
     margin-left: 8%;
     transform: translate(-160%, 2%);
 }
 /* prigioniero*/
-#char12{
+#char9{
     height:50%;
     width: 20%;
     margin-left: -5%;
     margin-right: -5%;
 }
 /* poliziotto */
-#char13{
+#char8{
     height:50%;
     width: 20%;
     margin-left: -28%;
