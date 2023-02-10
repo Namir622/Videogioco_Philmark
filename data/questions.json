@@ -202,13 +202,13 @@
             },
             "requires":"derubata2",
             "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-            "unlocks":"epatite2",
+            "unlocks":"epatite3",
             "correctSequence": ["D", "B", "C", "A"]
         }
     ]
 },
 {
-    "characterName": "Scena 2, ragazzo",
+    "characterName": "Scena 3, ragazzo",
     "interactions": [
         {
             "dialogue":[
@@ -251,7 +251,7 @@
                     "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
                 }
             },
-            "requires":"epatite2",
+            "requires":"epatite3",
             "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
             "unlocks":"testimone3",
             "correctSequence": ["D", "B", "C", "A"]
@@ -302,8 +302,8 @@
                     "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
                 }
             },
-            "requires":"testimone3",
-            "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
+            "requires":"",
+            "requires_message":"NON rompere",
             "unlocks":"nonna3",
             "correctSequence": ["D", "B", "C", "A"]
         }

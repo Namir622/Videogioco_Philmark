@@ -21,6 +21,55 @@
     margin-right: 5%;
 }
 
+.epatite-scena2{
+    height: 55%;
+    width: 20%;
+    margin-left: 12%;
+    transform: translate(20%,5%);
+}
+.vecchia-scena2{
+    
+}
+.minorenne-scena2{
+    margin-right: 5%;
+}
+
+.epatite-scena3{
+    margin-right: 5%;
+    
+}
+.vecchia-scena3{
+    margin-right: 5%;
+    transform: scale(-1, 1);
+}
+.minorenne-scena3{
+    margin-left: 5%;
+    transform: scale(-1, 1);
+}
+.testimone-scena3{
+
+}
+
+.epatite-scena4{
+    margin-right: 5%;
+}
+.vecchia-scena4{
+    margin-right: 5%;
+}
+.minorenne-scena4{
+    margin-right: 5%;
+}
+.testimone-scena4{
+    margin-right: 5%;
+}
+.prigioniero-scena4{
+    margin-right: 5%;
+}
+.poliziotto-scena4{
+    margin-right: 5%;
+}
+
+
 /*immagine ragazzo epatite*/
 .ragazzo-epatite {
     background-image: url(../assets/images/characters/BillyBraddock_FullSize_Base.png);
@@ -66,29 +115,23 @@
 /*STANZA 2*/
 /*epatite che viaggia*/
 #charEpatite{
-    height: 55%;
-    width: 20%;
-    margin-left: 12%;
-    transform: translate(40%,5%);
-    /*
+    
     padding: 0;
-    transform: scaleX(-1);*/
+    
 }
 /*vecchia che viagga*/
 #char2{
     height: 55%;
     width: 20%;
     margin: 0;
-    transform: translateX(35%);
-    /*
-    transform: translate(40%, -62%);*/
+    transform: translateX(-15%) ;
 }
 /*minorenne derubata*/
 #char3{
     height: 55%;
-    width: 15%;
-    margin-right: 22%;
-    transform: translate(-10%,-0%) scaleX(-1);
+    /*width: 15%;
+    margin-right: 22%;*/
+    transform: translate(-65%,-0%) scaleX(-1);
     
 }
 

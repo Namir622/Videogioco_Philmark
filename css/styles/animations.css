@@ -114,3 +114,192 @@
     }
 }
 
+.anim-exit-Scena2-vecchia {
+	animation: exit-Scena2-vecchia 2s forwards;
+}
+
+@keyframes exit-Scena2-vecchia {
+	0% {
+        transform: translate3d(0,0,0);
+    }
+    12.5%{
+        transform: translate3d(100%,-30%,0);
+    }
+    25%{
+        transform: translate3d(150%,0,0);
+    }
+    37.5%{
+        transform: translate3d(230%,-30%,0);
+    }
+    50%{
+        transform: translate3d(290%,0,0) ;
+    }
+    62.5%{
+        transform: translate3d(350%,-30%,0);
+    }
+    75%{
+        transform: translate3d(500%,0,0) ;
+    }
+    87.5%{
+        transform: translate3d(300%,0,0) ;
+    }
+	100% {
+        transform: translate3d(100%, 0 , 0) scale(1.7) scaleX(-1);
+	}
+}
+
+.anim-veccia2-to-initial {
+	animation: veccia2-to-initial 1s forwards;
+}
+
+@keyframes veccia2-to-initial{
+    0% {
+        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+	}
+    100% {
+        transform: translate3d(0, 0 ,0) scale(1) rotateY(180deg);
+    }
+}
+
+.anim-exit-Scena2-minorenne {
+	animation: exit-Scena2-minorenne 2s forwards;
+}
+
+@keyframes exit-Scena2-minorenne {
+	0% {
+        transform: translate3d(0,0,0) scaleX(-1);
+    }
+    12.5%{
+        transform: translate3d(100%,-30%,0) scaleX(-1);
+    }
+    25%{
+        transform: translate3d(150%,0,0) scaleX(-1);
+    }
+    37.5%{
+        transform: translate3d(230%,-30%,0) scaleX(-1);
+    }
+    50%{
+        transform: translate3d(290%,0,0) scaleX(-1);
+    }
+    62.5%{
+        transform: translate3d(350%,-30%,0) scaleX(-1);
+    }
+    75%{
+        transform: translate3d(500%,0,0)  scaleX(1);
+    }
+    87.5%{
+        transform: translate3d(300%,0,0)  scaleX(1);
+    }
+	100% {
+        transform: translate3d(-10%, 10% , 0) scale(1.7)  scaleX(1);
+	}
+}
+
+.anim-minorenne2-to-initial {
+	animation: minorenne2-to-initial 1s forwards;
+}
+
+@keyframes minorenne2-to-initial{
+    0% {
+        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+	}
+    100% {
+        transform: translate3d(0, 0 ,0) scale(1) rotateY(180deg);
+    }
+}
+
+.anim-exit-Scena3-epatite {
+	animation: exit-Scena3-epatite 2s forwards;
+}
+
+@keyframes exit-Scena3-epatite {
+	0% {
+        transform: translate3d(0,0,0) ;
+    }
+    12.5%{
+        transform: translate3d(300%,-30%,0);
+    }
+    25%{
+        transform: translate3d(350%,0,0);
+    }
+    37.5%{
+        transform: translate3d(530%,-30%,0);
+    }
+    50%{
+        transform: translate3d(590%,0,0);
+    }
+    62.5%{
+        transform: translate3d(650%,-30%,0);
+    }
+    75%{
+        transform: translate3d(700%,0,0)  rotateY(180deg);
+    }
+    87.5%{
+        transform: translate3d(420%,0,0)  rotateY(180deg);
+    }
+	100% {
+        transform: translate3d(380%, 0 ,0) scale(1.7)  rotateY(180deg);
+	}
+}
+
+.anim-epatite3-to-initial {
+	animation:epatite3-to-initial 1s forwards;
+}
+
+
+@keyframes epatite3-to-initial{
+    0% {
+        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+	}
+    100% {
+        transform: translate3d(0, 0 ,0) scale(1) rotateY(180deg);
+    }
+}
+
+.anim-exit-Scena3-testimone{
+	animation: exit-Scena3-testimone 2s forwards;
+}
+
+@keyframes exit-Scena3-testimone {
+	0% {
+        transform: translate3d(0,0,0) scale(1,1);
+    }
+    12.5%{
+        transform: translate3d(50%,-30%,0) scale(1,1);
+    }
+    25%{
+        transform: translate3d(100%,0,0) scale(1,1);
+    }
+    37.5%{
+        transform: translate3d(150%,-30%,0) scale(1,1);
+    }
+    50%{
+        transform: translate3d(200%,0,0) scale(1,1);
+    }
+    62.5%{
+        transform: translate3d(250%,-30%,0) scale(1,1);
+    }
+    75%{
+        transform: translate3d(350%,0,0) rotateY(180deg);
+    }
+    87.5%{
+        transform: translate3d(200%,-40px,0) rotateY(180deg);
+    }
+	100% {
+        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+	}
+}
+
+.anim-testimone3-to-initial{
+	animation: right-to-initial 1s forwards;
+}
+
+
+@keyframes testimone3-to-initial{
+    0% {
+        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+	}
+    100% {
+        transform: translate3d(0, 0 ,0) scale(1) rotateY(180deg);
+    }
+}

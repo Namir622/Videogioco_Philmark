@@ -54,12 +54,44 @@ function showNavigationArrows(){
 }
 
 function setupCharAnimations(){
+
+
     if (currentCharacterButton.classList.contains('button-right')){
         currentCharExitAnimation = "anim-exit-right-char"
         currentCharReturnAnimation = "anim-right-to-initial"
-    } else {
+    } else if (currentCharacterButton.classList.contains('button-left')) {
         currentCharExitAnimation = "anim-exit-left-char"
         currentCharReturnAnimation = "anim-left-to-initial"
+    } else if (currentCharacterButton.classList.contains('vecchia-scena2')) {
+        currentCharExitAnimation = "anim-exit-Scena2-vecchia"
+        currentCharReturnAnimation = "anim-veccia2-to-initial"
+    } else if (currentCharacterButton.classList.contains('minorenne-scena2')) {
+        currentCharExitAnimation = "anim-exit-Scena2-minorenne"
+        currentCharReturnAnimation = "anim-minorenne2-to-initial"
+    } else if (currentCharacterButton.classList.contains('epatite-scena3')) {
+        currentCharExitAnimation = "anim-exit-Scena3-epatite"
+        currentCharReturnAnimation = "anim-epatite3-to-initial"
+    } else if (currentCharacterButton.classList.contains('vecchia-scena3')) {
+        currentCharExitAnimation = "anim-exit-Scena3-vecchia"
+        currentCharReturnAnimation = "anim-vecchia3-to-initial"
+    } else if (currentCharacterButton.classList.contains('minorenne-scena3')) {
+        currentCharExitAnimation = "anim-exit-Scena3-monerenne"
+        currentCharReturnAnimation = "anim-minorenne3-to-initial"
+    } else if (currentCharacterButton.classList.contains('testimone-scena3')) {
+        currentCharExitAnimation = "anim-exit-Scena3-testimone"
+        currentCharReturnAnimation = "anim-testimone3-to-initial"
+    } else if (currentCharacterButton.classList.contains('epatite-scena4')) {
+        currentCharExitAnimation = "anim-exit-Scena4-epatite"
+        currentCharReturnAnimation = "anim-epatite4-to-initial"
+    } else if (currentCharacterButton.classList.contains('vecchia-scena4')) {
+        currentCharExitAnimation = "anim-exit-Scena4-vecchia"
+        currentCharReturnAnimation = "anim-vecchia4-to-initial"
+    } else if (currentCharacterButton.classList.contains('prigioniero-scena4')) {
+        currentCharExitAnimation = "anim-exit-Scena4-prigioniero"
+        currentCharReturnAnimation = "anim-prigioniero4-to-initial"
+    } else if (currentCharacterButton.classList.contains('poliziotto-scena4')) {
+        currentCharExitAnimation = "anim-exit-Scena4-poliziotto"
+        currentCharReturnAnimation = "anim-poliziotto4-to-initial"
     }
 }
 
