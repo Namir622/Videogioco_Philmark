@@ -577,28 +577,15 @@
                         "claytonDiary" : "Un atro caso risolto con successo :)"
                     }
                 },
-                "C":{
-                    "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
-                    "score": 2,
-                    "color": "Green",
-                    "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
-                    "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
-                },
-                "D":{
-                    "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
-                    "score": 1,
-                    "color": "Yellow",
-                    "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
-                    "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
-                }
-            },
+            
             "requires":"epatite3",
             "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
             "unlocks":"testimone3",
-            "correctSequence": ["D", "B", "C", "A"]
-        }
-    ]
-},
+            "correctSequence": ["D", "B", "C", "A"] 
+            }
+        ]
+    },
+
 {
     "characterName": "Scena 3, testimone",
     "interactions": [
