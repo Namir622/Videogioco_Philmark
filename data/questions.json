@@ -385,7 +385,7 @@
                         "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
                     }
                 },
-                "requires":"",
+                "requires":"minorenne3",
                 "requires_message":"La ragazza sembra turbata, meglio lasciarla sola per ora",
                 "unlocks":"ispettore",
                 "correctSequence": ["D", "B", "C", "A"]

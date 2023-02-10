@@ -96,7 +96,7 @@
         transform: translate3d(200%,-40px,0) rotateY(180deg);
     }
 	100% {
-        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+        transform: translate3d(-10%, -30% ,0) scale(1.7) rotateY(180deg);
 	}
 }
 
