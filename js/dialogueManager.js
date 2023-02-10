@@ -141,10 +141,13 @@ function terminateInteraction(){
     currentCharacterButton.classList.add(currentCharReturnAnimation);
     currentCharacterButton.addEventListener('animationend', endDialogue)
 
+    calculateSommatoria();
     finishedDialogues++;
     dialogueNumber(finishedDialogues);
+    progressiveBar(finishedDialogues);
     chNumber++;
     nameGiver(chNumber);
+
     
     
     //TODO ALEX
