@@ -262,31 +262,31 @@
 
 @keyframes exit-Scena3-testimone {
 	0% {
-        transform: translate3d(0,0,0) scale(1,1);
+        transform: translate3d(0,0,0) scale(1,1) scaleX(-1);
     }
     12.5%{
-        transform: translate3d(50%,-30%,0) scale(1,1);
+        transform: translate3d(50%,-30%,0) scale(1,1) scaleX(-1);
     }
     25%{
-        transform: translate3d(100%,0,0) scale(1,1);
+        transform: translate3d(100%,0,0) scale(1,1) scaleX(-1);
     }
     37.5%{
-        transform: translate3d(150%,-30%,0) scale(1,1);
+        transform: translate3d(150%,-30%,0) scale(1,1) scaleX(-1);
     }
     50%{
-        transform: translate3d(200%,0,0) scale(1,1);
+        transform: translate3d(200%,0,0) scale(1,1) scaleX(-1);
     }
     62.5%{
-        transform: translate3d(250%,-30%,0) scale(1,1);
+        transform: translate3d(250%,-30%,0) scale(1,1) scaleX(-1);
     }
     75%{
-        transform: translate3d(350%,0,0) rotateY(180deg);
+        transform: translate3d(350%,0,0)  scaleX(-1);
     }
     87.5%{
-        transform: translate3d(200%,-40px,0) rotateY(180deg);
+        transform: translate3d(200%,-40px,0) ;
     }
 	100% {
-        transform: translate3d(30%, 0 ,0) scale(1.7) rotateY(180deg);
+        transform: translate3d(20%, -10% ,0) scale(1.7) scaleX(-1);
 	}
 }
 
@@ -301,5 +301,101 @@
 	}
     100% {
         transform: translate3d(0, 0 ,0) scale(1) rotateY(180deg);
+    }
+}
+
+.anim-exit-Scena3-vecchia{
+	animation: exit-Scena3-vecchia 2s forwards;
+}
+
+@keyframes exit-Scena3-vecchia {
+	0% {
+        transform: translate3d(0,0,0) ;
+    }
+    12.5%{
+        transform: translate3d(100%,-30%,0);
+    }
+    25%{
+        transform: translate3d(150%,0,0);
+    }
+    37.5%{
+        transform: translate3d(230%,-30%,0);
+    }
+    50%{
+        transform: translate3d(290%,0,0);
+    }
+    62.5%{
+        transform: translate3d(350%,-30%,0);
+    }
+    75%{
+        transform: translate3d(500%,0,0)  rotateY(180deg);
+    }
+    87.5%{
+        transform: translate3d(300%,0,0)  rotateY(180deg);
+    }
+	100% {
+        transform: translate3d(200%, 0 ,0) scale(1.7)  rotateY(180deg);
+	}
+}
+
+.anim-vecchia3-to-initial {
+	animation: vecchia3-to-initial 1s forwards;
+}
+
+
+@keyframes vecchia3-to-initial{
+    0% {
+        transform: translate3d(200%, 0 ,0) scale(1.7);
+	}
+    100% {
+        transform: translate3d(0,0,0) scale(1);
+    }
+}
+
+.anim-exit-Scena3-monerenne {
+	animation: exit-Scena3-monerenne 2s forwards;
+}
+
+@keyframes exit-Scena3-monerenne {
+	0% {
+        transform: translate3d(0,0,0) scaleX(-1) ;
+    }
+    12.5%{
+        transform: translate3d(100%,-30%,0) scaleX(-1);
+    }
+    25%{
+        transform: translate3d(150%,0,0) scaleX(-1);
+    }
+    37.5%{
+        transform: translate3d(230%,-30%,0) scaleX(-1);
+    }
+    50%{
+        transform: translate3d(290%,0,0) scaleX(-1);
+    }
+    62.5%{
+        transform: translate3d(350%,-30%,0) scaleX(-1);
+    }
+    75%{
+        transform: translate3d(500%,0,0);
+    }
+    87.5%{
+        transform: translate3d(300%,0,0);
+    }
+	100% {
+        transform: translate3d(120%, 0 ,0) scale(1.7);
+	}
+}
+
+.anim-minorenne3-to-initial {
+	animation: inorenne3-to-initial 1s forwards;
+}
+
+
+@keyframes inorenne3-to-initial{
+    0% {
+        transform: translate3d(200%, 0 ,0) scale(1.7);
+	}
+    100% {
+        transform: translate3d(0,0,0) scale(1);
     }
 }
