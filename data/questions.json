@@ -442,45 +442,23 @@
         "interactions": [
             {
                 "dialogue":[
-                    "Ragazzo...",
-                    "Io cosa centro?",
-                    "Anche tu sei complice ragazzo",
-                    "Ma è stata mia nonna, io non ho fatto nulla. Tra l'altro ero distante", 
-                    "Ho le prove per accusarti"
+                    "Ehi, perché sei fuori dalla tua cella!",
+                    "Stia tranquillo detective Pando. Ho saputo che una vecchia amica è venuta a farmi una visita intenzionalmente",
+                    "...Questo non spiega il perché tu stia fuori dalla tua cella",
+                    "Prigioniero o no il bagno rimane un diritto Pando", 
+                    "*sbuffa* Comunque a cosa alludevi a 'vecchia amica'? Intendi quella signora anziana lì in fondo?",
+                    "Esatto, astuto come sempre mio caro detective.",
+                    "Come fai a conoscerla?",
+                    "Eravamo in società insieme ai tempi, se sa cosa intendo",
+                    "...quale società?",
+                    "Quella del furto, mio caro Mr.Panda. Ho collaborato con quella vecchia megera a piccoli furti, ma poi ci fu quel giorno nel 99' in cui mi abbandonò. Non dimenticherò mai quel giorno!",
+                    "Invece del nipote, cosa sai?",
+                    "Nipote? ...nn so di cosa parli. Lavoravamo insieme, ma la vita privata era off-limits",
+                    "..."
                 ],
-                "question":{
-                    "question-text": "A si? E quali sarebbero?",
-                    "A":{
-                        "answer": "So che in stazione stavate pianificando tutto",
-                        "score": -1,
-                        "color": "Blue",
-                        "quickReply": "*faccia spaventata*",
-                        "claytonDiary" : "È tempo di parlare con la signora"
-                    },
-                    "B":{
-                        "answer": "Ho trovato un foglio con il vostro piano scritto sopra",
-                        "score": -2,
-                        "color": "Red",
-                        "quickReply": "*faccia molto spaventata*",
-                        "claytonDiary" : "È tempo di parlare con la signora"
-                    },
-                    "C":{
-                        "answer": "In più tu sei già un fuorilegge per altri motivi",
-                        "score": 2,
-                        "color": "Green",
-                        "quickReply": "Da quado i miei non ci sono più, non sò più come sostentarmi",
-                        "claytonDiary" : "È tempo di parlare con la signora"
-                    },
-                    "D":{
-                        "answer": "Non ti preoccupare, non starai dentro per molto",
-                        "score": 1,
-                        "color": "Yellow",
-                        "quickReply": "Grazie agente",
-                        "claytonDiary" : "È tempo di parlare con la signora"
-                    }
-                },
+                "claytonDiary" : "Sembra che debba parlare con il nipote a questo punto",
                 "requires":"carcerato4",
-                "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
+                "requires_message":"Meglio se vado prima dall'ispettore",
                 "unlocks":"epatite4",
                 "correctSequence": ["D", "B", "C", "A"]
             }
@@ -577,7 +555,7 @@
                         "claytonDiary" : "Un atro caso risolto con successo :)"
                     }
                 },
-                "requires":"nonna2",
+                "requires":"nonna4",
                 "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
                 "unlocks":"",
                 "correctSequence": ["D", "B", "C", "A"]

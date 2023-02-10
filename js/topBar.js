@@ -78,7 +78,7 @@ function progressiveBar(NumberDialogue){
     }
     if(NumberDialogue == 8)
     {
-        barra2.style.width= "62.5px";
+        barra2.style.width= "125px";
         barra2.style.height= "10px";
         barra2.style.borderRadius = "10px";
         barra2.style.backgroundColor = "#fff"
@@ -104,7 +104,7 @@ function progressiveBar(NumberDialogue){
         barra3.style.borderRadius = "10px";
         barra3.style.backgroundColor = "#fff"
     }
-    if(NumberDialogue == 11)
+    if(NumberDialogue == 12)
     {
         barra4.style.width= "125px";
         barra4.style.height= "10px";
