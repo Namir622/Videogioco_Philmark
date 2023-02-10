@@ -1,4 +1,5 @@
 let testa0 = document.getElementById('hiddenchar0pawn');
+let testa1 = document.getElementById('hiddenchar1pawn')
 let testa2 = document.getElementById('hiddenchar2pawn');
 let testa5 = document.getElementById('hiddenchar5pawn');
 
@@ -15,5 +16,6 @@ function topBarUnlocker(roomNumber){
     else if (roomNumber == 4){
         console.log("unlocked room 4")
         testa0.id = 'char0pawn';
+        testa1.id = 'char1pawn';
     }
 }

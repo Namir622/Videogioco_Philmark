@@ -78,6 +78,10 @@
     background-image: url(../assets/UI/top_bar/pawns/TestaMozzataGuardia.png) !important;
 }
 
+#char1pawn{
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataPrigioniero.png) !important;
+}
+
 #char2pawn{
     transform: scaleX(-1);
     background-image: url(../assets/UI/top_bar/pawns/TestaMozzataRagazza.png) !important;
