@@ -67,6 +67,7 @@
     border-radius: 10px;
 }
 
+
 .progress-bar-fill{
     background-color: #fff;
     width: 10px;
@@ -100,8 +101,9 @@
 
 
 
-
-/* #char4-pawn_c .progress-bar .progress-bar-fill
+/*
+#char0-pawn_c .progress-bar .progress-bar-fill
 {
     background-color: #ff0000 !important;
+    width: 100px;
 } */

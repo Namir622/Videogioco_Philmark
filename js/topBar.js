@@ -2,7 +2,13 @@ let testa0 = document.getElementById('hiddenchar0pawn');
 let testa1 = document.getElementById('hiddenchar1pawn')
 let testa2 = document.getElementById('hiddenchar2pawn');
 let testa5 = document.getElementById('hiddenchar5pawn');
-
+let testa3 = document.getElementById('char3-pawn');
+let barra3 = document.getElementById('progress-bar3');
+let barra4 = document.getElementById('progress-bar4');
+let barra2 = document.getElementById('progress-bar2');
+let barra5 = document.getElementById('progress-bar5');
+let barra1 = document.getElementById('progress-bar1');
+let barra0 = document.getElementById('progress-bar0');
 
 function topBarUnlocker(roomNumber){
     if (roomNumber == 2){
@@ -18,4 +24,93 @@ function topBarUnlocker(roomNumber){
         testa0.id = 'char0pawn';
         testa1.id = 'char1pawn';
     }
+}
+function progressiveBar(NumberDialogue){
+
+    if(NumberDialogue == 1)
+    {
+        barra3.style.width= "41.6px";
+        barra3.style.height= "10px";
+        barra3.style.borderRadius = "10px";
+        barra3.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 2)
+    {
+        barra4.style.width= "31.25px";
+        barra4.style.height= "10px";
+        barra4.style.borderRadius = "10px";
+        barra4.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 3)
+    {
+        barra4.style.width= "62.50px";
+        barra4.style.height= "10px";
+        barra4.style.borderRadius = "10px";
+        barra4.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 4)
+    {
+        barra2.style.width= "62.5px";
+        barra2.style.height= "10px";
+        barra2.style.borderRadius = "10px";
+        barra2.style.backgroundColor = "#fff"
+    }    
+    if(NumberDialogue == 5)
+    {
+        barra3.style.width= "83.3px";
+        barra3.style.height= "10px";
+        barra3.style.borderRadius = "10px";
+        barra3.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 6)
+    {
+        barra5.style.width= "125px";
+        barra5.style.height= "10px";
+        barra5.style.borderRadius = "10px";
+        barra5.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 7)
+    {
+        barra4.style.width= "93.75px";
+        barra4.style.height= "10px";
+        barra4.style.borderRadius = "10px";
+        barra4style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 8)
+    {
+        barra2.style.width= "62.5px";
+        barra2.style.height= "10px";
+        barra2.style.borderRadius = "10px";
+        barra2.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 9)
+    {
+        barra0.style.width= "125px";
+        barra0.style.height= "10px";
+        barra0.style.borderRadius = "10px";
+        barra0.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 10)
+    {
+        barra1.style.width= "125px";
+        barra1.style.height= "10px";
+        barra1.style.borderRadius = "10px";
+        barra1.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 11)
+    {
+        barra3.style.width= "125px";
+        barra3.style.height= "10px";
+        barra3.style.borderRadius = "10px";
+        barra3.style.backgroundColor = "#fff"
+    }
+    if(NumberDialogue == 11)
+    {
+        barra4.style.width= "125px";
+        barra4.style.height= "10px";
+        barra4.style.borderRadius = "10px";
+        barra4.style.backgroundColor = "#fff"
+    }
+
+
 }

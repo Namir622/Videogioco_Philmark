@@ -1,6 +1,5 @@
 [
-    {
-        "characterName": "Scena 1, ragazzo",
+    { "characterName": "Scena 1, ragazzo",
         "interactions": [
             {
                 "dialogue":[
@@ -55,8 +54,7 @@
             }
         ]
     },
-    {
-        "characterName": "Scena 1, vecchia",
+    { "characterName": "Scena 1, vecchia",
         "interactions": [
             {
                 "dialogue":[
@@ -105,136 +103,398 @@
             }
         ]
     },
-{
-    "characterName": "Scena 2, vecchia",
-    "interactions": [
-        {
-            "dialogue":[
-                "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
-                "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
-                "So che conosceva il nostro ospite.",
-                "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
-                "Lei pensa che sia stata giusta con Jebediah Coulter?",  
-                "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
-                "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
-            ],
-            "question":{
-                "question-text": "Chissà...",
-                "A":{
-                    "answer": "Potrebbe essere più precisa?",
-                    "score": -1,
-                    "color": "Blue",
-                    "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
-                    "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+    { "characterName": "Scena 2, vecchia",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "B":{
-                    "answer": "Ha mai desiderato il male del signor Coulter?",
-                    "score": -2,
-                    "color": "Red",
-                    "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
-                    "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                "requires":"nonna2",
+                "requires_message":"",
+                "unlocks":"derubata2",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 2, ragazza",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "C":{
-                    "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
-                    "score": 2,
-                    "color": "Green",
-                    "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
-                    "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                "requires":"derubata2",
+                "requires_message":"Non penso sia ora di parlare con la ragazza",
+                "unlocks":"epatite3",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 3, ragazzo",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buongiorno, ancora",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "D":{
-                    "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
-                    "score": 1,
-                    "color": "Yellow",
-                    "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
-                    "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
-                }
-            },
-            "requires":"nonna2",
-            "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-            "unlocks":"derubata2",
-            "correctSequence": ["D", "B", "C", "A"]
-        }
-    ]
-},
-{
-    "characterName": "Scena 2, ragazza",
-    "interactions": [
-        {
-            "dialogue":[
-                "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
-                "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
-                "So che conosceva il nostro ospite.",
-                "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
-                "Lei pensa che sia stata giusta con Jebediah Coulter?",  
-                "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
-                "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
-            ],
-            "question":{
-                "question-text": "Chissà...",
-                "A":{
-                    "answer": "Potrebbe essere più precisa?",
-                    "score": -1,
-                    "color": "Blue",
-                    "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
-                    "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                "requires":"epatite3",
+                "requires_message":"",
+                "unlocks":"testimone3",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 3, testimone",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "B":{
-                    "answer": "Ha mai desiderato il male del signor Coulter?",
-                    "score": -2,
-                    "color": "Red",
-                    "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
-                    "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                "requires":"testimone3",
+                "requires_message":"Strano che la signora sia così vicina alla porta e il nipote no. Sarà meglio chiedere al nipote.",
+                "unlocks":"nonna3",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 3, vecchia",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "C":{
-                    "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
-                    "score": 2,
-                    "color": "Green",
-                    "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
-                    "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                "requires":"nonna3",
+                "requires_message":"La ragazza sembra turbata, meglio non disturbarla",
+                "unlocks":"derubata3",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 4, ispettore",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "D":{
-                    "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
-                    "score": 1,
-                    "color": "Yellow",
-                    "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
-                    "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
-                }
-            },
-            "requires":"derubata2",
-            "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-            "unlocks":"epatite3",
-            "correctSequence": ["D", "B", "C", "A"]
-        }
-    ]
-},
-{
-    "characterName": "Scena 3, ragazzo",
-    "interactions": [
-        {
-            "dialogue":[
-                "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
-                "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
-                "So che conosceva il nostro ospite.",
-                "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
-                "Lei pensa che sia stata giusta con Jebediah Coulter?",  
-                "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
-                "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
-            ],
-            "question":{
-                "question-text": "Chissà...",
-                "A":{
-                    "answer": "Potrebbe essere più precisa?",
-                    "score": -1,
-                    "color": "Blue",
-                    "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
-                    "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                "requires":"ispettore",
+                "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
+                "unlocks":"",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 4, ?",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
-                "B":{
-                    "answer": "Ha mai desiderato il male del signor Coulter?",
-                    "score": -2,
-                    "color": "Red",
-                    "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
-                    "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                "requires":"ispettore",
+                "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
+                "unlocks":"",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 4, ?",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Buonasera, Mrs. Braddock. Posso rubarle qualche minuto?",
+                    "Oh, giovanotto! Alla mia età il tempo assume tutto un altro valore, ma vedrò di risponderti come posso.",
+                    "So che conosceva il nostro ospite.",
+                    "Si. Lavorava con Max, il mio defunto figlio. Interessante come la vita sia giusta con alcuni e ingiusta con altri, no?", 
+                    "Lei pensa che sia stata giusta con Jebediah Coulter?",  
+                    "Suvvia, non voglio certo dire che se lo meritasse, ma certe cose accadono raramente per caso. Esattamente come per Max.",   
+                    "Ritiene che il signor Coulter sia in parte responsabile? Magari anche per la sorte di suo figlio?"
+                ],
+                "question":{
+                    "question-text": "Chissà...",
+                    "A":{
+                        "answer": "Potrebbe essere più precisa?",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "Perdonami, ragazzo, certe conversazioni mi stancano molto. Preferisco ritirarmi nella mia cabina.",
+                        "claytonDiary" : "Dovrò essere paziente se spero di ottenere qualcosa da lei. Riproverò più tardi."
+                    },
+                    "B":{
+                        "answer": "Ha mai desiderato il male del signor Coulter?",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "Ma come ti salta in mente? Sono una persona per bene, io. Che razza di domanda...",
+                        "claytonDiary" : "Mi sono spinto troppo in là. Ripasserò quando si sarà calmata."
+                    },
+                    "C":{
+                        "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Oh, giovanotto, ti ringrazio per la premura. Mio figlio ha sicuramente avuto modo di tirarsi indietro dagli affari di Jebediah, ma non è mai stato capace di prendere decisioni importanti. Te ne parlerò meglio più avanti.",
+                        "claytonDiary" : "Una buona pista. Che la morte di Max sia il movente? Dovrò approfondire."
+                    },
+                    "D":{
+                        "answer": "Con me può aprirsi, signora. Siamo dalla stessa parte.",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Parte? Questa non è una guerra, ragazzo. Non ci sono fazioni con cui schierarsi e di certo non mi interessa remare contro le tue indagini.",
+                        "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
+                    }
                 },
                 "C":{
                     "answer": "Possiamo parlarne con calma in un secondo momento, se preferisce.",
