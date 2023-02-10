@@ -407,32 +407,80 @@
                         "score": -1,
                         "color": "Blue",
                         "quickReply": "L'anziano signore è stato di grande aiuto!.",
-                        "claytonDiary" : "Penso che il ragazzo voglia dire qualcosa"
+                        "claytonDiary" : "Penso che l'altro prigioniero voglia dire qualcosa"
                     },
                     "B":{
                         "answer": "È il sesto senso da detective",
                         "score": -2,
                         "color": "Red",
                         "quickReply": "Wow...",
-                        "claytonDiary" : "Penso che il ragazzo voglia dire qualcosa"
+                        "claytonDiary" : "Penso che l'altro prigioniero voglia dire qualcosa"
                     },
                     "C":{
                         "answer": "Quella vecchietta mi ha insospettito fin dall'inizio",
                         "score": 2,
                         "color": "Green",
                         "quickReply": "Effettivemente è piuttosto sospetta",
-                        "claytonDiary" : "Penso che il ragazzo voglia dire qualcosa"
+                        "claytonDiary" : "Penso che l'altro prigioniero voglia dire qualcosa"
                     },
                     "D":{
                         "answer": "Infine ha iniziato a comportarsi in modo strano",
                         "score": 1,
                         "color": "Yellow",
                         "quickReply": "Sì, è molto stana ",
-                        "claytonDiary" : "Penso che il ragazzo voglia dire qualcosa"
+                        "claytonDiary" : "Penso che l'altro prigioniero voglia dire qualcosa"
                     }
                 },
                 "requires":"ispettore",
                 "requires_message":"ciao",
+                "unlocks":"",
+                "correctSequence": ["D", "B", "C", "A"]
+            }
+        ]
+    },
+    { "characterName": "Scena 4, carcerato",
+        "interactions": [
+            {
+                "dialogue":[
+                    "Ragazzo...",
+                    "Io cosa centro?",
+                    "Anche tu sei complice ragazzo",
+                    "Ma è stata mia nonna, io non ho fatto nulla. Tra l'altro ero distante", 
+                    "Ho le prove per accusarti"
+                ],
+                "question":{
+                    "question-text": "A si? E quali sarebbero?",
+                    "A":{
+                        "answer": "So che in stazione stavate pianificando tutto",
+                        "score": -1,
+                        "color": "Blue",
+                        "quickReply": "*faccia spaventata*",
+                        "claytonDiary" : "È tempo di parlare con la signora"
+                    },
+                    "B":{
+                        "answer": "Ho trovato un foglio con il vostro piano scritto sopra",
+                        "score": -2,
+                        "color": "Red",
+                        "quickReply": "*faccia molto spaventata*",
+                        "claytonDiary" : "È tempo di parlare con la signora"
+                    },
+                    "C":{
+                        "answer": "In più tu sei già un fuorilegge per altri motivi",
+                        "score": 2,
+                        "color": "Green",
+                        "quickReply": "Da quado i miei non ci sono più, non sò più come sostentarmi",
+                        "claytonDiary" : "È tempo di parlare con la signora"
+                    },
+                    "D":{
+                        "answer": "Non ti preoccupare tu non starai dentro per molto",
+                        "score": 1,
+                        "color": "Yellow",
+                        "quickReply": "Grazie agente",
+                        "claytonDiary" : "È tempo di parlare con la signora"
+                    }
+                },
+                "requires":"ispettore",
+                "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
                 "unlocks":"",
                 "correctSequence": ["D", "B", "C", "A"]
             }
