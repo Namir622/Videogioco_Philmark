@@ -41,6 +41,7 @@ function calculateSommatoria(){
         var playerAnswers = data[0]["interactions"][0]["playerSequence"];
         var correctSequence = data[0]["interactions"][0]["playerSequence"];
         console.log(playerAnswers === correctSequence)
+        calculatePunteggioTotale();
     });
 }
 
