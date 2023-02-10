@@ -145,7 +145,7 @@
                         "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
                     }
                 },
-                "requires":"",
+                "requires":"nonna2",
                 "requires_message":"",
                 "unlocks":"derubata2",
                 "correctSequence": ["D", "B", "C", "A"]
@@ -385,7 +385,7 @@
                         "claytonDiary" : "Sono stato frettoloso, ma la signora non sembra mal disposta nei miei confronti. Riproverò in futuro."
                     }
                 },
-                "requires":"minorenne3",
+                "requires":"derubata3",
                 "requires_message":"La ragazza sembra turbata, meglio lasciarla sola per ora",
                 "unlocks":"ispettore",
                 "correctSequence": ["D", "B", "C", "A"]
@@ -433,7 +433,7 @@
                 },
                 "requires":"ispettore",
                 "requires_message":"ciao",
-                "unlocks":"",
+                "unlocks":"carcerato4",
                 "correctSequence": ["D", "B", "C", "A"]
             }
         ]
@@ -472,16 +472,16 @@
                         "claytonDiary" : "È tempo di parlare con la signora"
                     },
                     "D":{
-                        "answer": "Non ti preoccupare tu non starai dentro per molto",
+                        "answer": "Non ti preoccupare, non starai dentro per molto",
                         "score": 1,
                         "color": "Yellow",
                         "quickReply": "Grazie agente",
                         "claytonDiary" : "È tempo di parlare con la signora"
                     }
                 },
-                "requires":"ispettore",
+                "requires":"carcerato4",
                 "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-                "unlocks":"",
+                "unlocks":"epatite4",
                 "correctSequence": ["D", "B", "C", "A"]
             }
         ]
@@ -527,9 +527,9 @@
                         "claytonDiary" : "È tempo di parlare con la signora"
                     }
                 },
-                "requires":"ispettore",
+                "requires":"epatite4",
                 "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
-                "unlocks":"",
+                "unlocks":"nonna4",
                 "correctSequence": ["D", "B", "C", "A"]
             }
         ]
@@ -577,7 +577,7 @@
                         "claytonDiary" : "Un atro caso risolto con successo :)"
                     }
                 },
-                "requires":"ispettore",
+                "requires":"nonna2",
                 "requires_message":"Non sembra dell'umore giusto per parlare. Meglio iniziare con suo nipote.",
                 "unlocks":"",
                 "correctSequence": ["D", "B", "C", "A"]
