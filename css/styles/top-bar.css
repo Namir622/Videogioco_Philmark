@@ -99,7 +99,24 @@
     background-image: url(../assets/UI/top_bar/pawns/TestaMozzataTestimone.png) !important;
 }
 
-
+#char0-pawn-colored {
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataGuardia\ -\ Copia.png) !important;
+}
+#char1-pawn-colored {
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataPrigionieroColorata.png) !important;
+}
+#char2-pawn-colored {
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataRagazza\ -\ Copia.png) !important;
+}
+#char3-pawn-colored {
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataColorata.png) !important;
+}
+#char4-pawn-colored {
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataVecchia\ -\ Copia.png) !important;
+}
+#char5-pawn-colored {
+    background-image: url(../assets/UI/top_bar/pawns/TestaMozzataTestimone\ -\ Copia.png) !important;
+}
 
 /*
 #char0-pawn_c .progress-bar .progress-bar-fill

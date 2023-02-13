@@ -16,7 +16,7 @@ function navigateNextRoom() {
     if (roomNumber == 4) {
         return;
     }
-    else if (number == 2 ) { /*|| number == 0 cambia lo 0  a 2 per far si che si blocchi il bottone se nn avvengono i dialoghi*/
+    else if (number == 2) { /*|| number == 0 cambia lo 0  a 2 per far si che si blocchi il bottone se nn avvengono i dialoghi*/
         roomNumber++;
         //number++
         console.log("2")
