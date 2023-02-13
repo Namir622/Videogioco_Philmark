@@ -1,5 +1,5 @@
 function FNameGeneratorMALE() {
-	const arrFNAMEBoy = [
+	const arrFNAMEM = [
 		//Grandezza: 25
 		"Benjamin",
 		"James",
@@ -27,7 +27,7 @@ function FNameGeneratorMALE() {
 		"Michael",
 		"William",
 	];
-	return arrFNAMEBoy[Randomizer(25)];
+	return arrFNAMEM[Randomizer(25)];
 }
 function LNameGenerator() {
 	const arrLNAME = [
@@ -63,7 +63,7 @@ function LNameGenerator() {
 
 function FNameGeneratorFEMALE() {
 	//Grandezza: 25
-	const arrFNAMEGrandma = [
+	const arrFNAME = [
 		"Emma",
 		"Olivia",
 		"Ava",
@@ -90,17 +90,32 @@ function FNameGeneratorFEMALE() {
 		"Zoe",
 		"Natalie",
 	];
-	return arrFNAMEGrandma[Randomizer(25)];
+	return arrFNAME[Randomizer(25)];
 }
 
-var LName01 = LNameGenerator();
+let LName01 = LNameGenerator();
+let LName02 = LNameGenerator();
+let LName03 = LNameGenerator();
+let LName04 = LNameGenerator();
+let LName05 = LNameGenerator();
 
 function boy01FULLNAMEGenerator() {
 	return FNameGeneratorMALE() + LName01;
 }
-
 function grandmaFULLNAMEGenerator() {
 	return FNameGeneratorFEMALE() + LName01;
+}
+function ragazzinaFULLNAMEGenerator() {
+	return FNameGeneratorFEMALE() + LName02
+}
+function nonnoFULLNAMEGenerator() {
+	return FNameGeneratorMALE() + LName03
+}
+function guardiaFULLNAMEGenerator() {
+	return FNameGeneratorMALE() + LName04
+}
+function prigionieroFULLNAMEGenerator() {
+	return FNameGeneratorMALE() + LName05
 }
 
 function Randomizer(x) {
