@@ -35,5 +35,6 @@ function navigateNextRoom() {
         topBarUnlocker(roomNumber);
         console.log("8")
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
+        button.style.display = "none"; /*toglie il button */
     }
 }

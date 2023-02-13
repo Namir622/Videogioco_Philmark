@@ -13,6 +13,8 @@ let barra5 = document.getElementById('progress-bar5');
 let barra1 = document.getElementById('progress-bar1');
 let barra0 = document.getElementById('progress-bar0');
 
+let button = document.querySelector('#arrow');
+
 function topBarUnlocker(roomNumber){
     if (roomNumber == 2){
         console.log("unlocked room 2")
