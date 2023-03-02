@@ -18,7 +18,7 @@ function navigateNextRoom() {
     }
     else if (number == 2) { /*|| number == 0 cambia lo 0  a 2 per far si che si blocchi il bottone se nn avvengono i dialoghi*/
         roomNumber++;
-        //number++
+        number++
         console.log("2")
         topBarUnlocker(roomNumber);
         document.querySelector("#rooms-container").scrollLeft += scrollSize;
